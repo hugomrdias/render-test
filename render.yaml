@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: 'pgrest'
+    name: pgrest1
     env: docker
     # region: frankfurt
     plan: free
