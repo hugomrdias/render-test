@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: 'pgrest'
+    env: docker
+    region: frankfurt
+    plan: free
+    numInstances: 1
+    envVars:
+      - fromGroup: staging
